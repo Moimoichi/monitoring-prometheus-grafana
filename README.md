@@ -1,4 +1,11 @@
 # Prometheus & Grafana System Monitoring
+## Quick Setup
+
+```bash
+git clone https://github.com/Moimoichi/monitoring-prometheus-grafana.git
+cd monitoring-prometheus-grafana
+chmod +x install_monitoring.sh
+sudo ./install_monitoring.sh
 
 ## Overview
 This project demonstrates a full monitoring setup for Linux (Ubuntu) and Windows servers using Prometheus, Grafana, Node Exporter, and WMI Exporter.
